@@ -65,10 +65,10 @@ Used **SMOTE (Synthetic Minority Oversampling Technique)** to balance the datase
 ## 📸 Visual Outputs
 
 ### SHAP Feature Importance (Top 10)
-![SHAP Summary](outputs/shap_summary.png)
+![SHAP Summary](Plots/shap_summary.png) (Plots/shap_summary2.png)
 
 ### Counterfactual Sample Example
-![Counterfactual Example](outputs/counterfactual_example.png)
+![Counterfactual Example](Plots/counterfactual_example.png)
 
 > *Note: Replace these placeholders with your actual images in the `/outputs` folder.*
 
