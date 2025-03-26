@@ -1,6 +1,6 @@
 # 🔍 German Credit Risk Analysis with Explainable Deep Learning
 
-This repository houses the implementation of my MSc dissertation project, titled **"Generating Counterfactual and Global Explanations for German Credit Data Using Deep Learning Models"**. The project tackles the critical challenge of transparency in credit risk assessment by leveraging **Explainable Artificial Intelligence (XAI)** techniques with deep learning models. Using the German Credit Dataset, I developed two neural networks—a **Multilayer Perceptron (MLP)** and a **Convolutional Neural Network (CNN)** enhanced with **SMOTE** to address data imbalance, and explained their decisions using **SHAP** for global feature importance and **counterfactual explanations** for individual decision insights.
+This repository houses the implementation of my MSc dissertation project, titled **"Generating Counterfactual and Global Explanations for German Credit Data Using Deep Learning Models"**. The project tackles the critical challenge of transparency in credit risk assessment by leveraging **Explainable Artificial Intelligence (XAI)** techniques with deep learning models. Using the German Credit Dataset, I developed two neural networks, a **Multilayer Perceptron (MLP)** and a **Convolutional Neural Network (CNN)** enhanced with **SMOTE** to address data imbalance, and explained their decisions using **SHAP** for global feature importance and **counterfactual explanations** for individual decision insights.
 
 ---
 
