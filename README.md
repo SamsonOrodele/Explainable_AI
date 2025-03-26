@@ -88,31 +88,13 @@ Used **SMOTE (Synthetic Minority Oversampling Technique)** to balance the datase
 └── README.md
 ```
 
----
-
-## 🚀 How to Use
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/german-credit-xai.git
-cd german-credit-xai
-```
-
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the notebook
-```bash
-jupyter notebook GermanCredit_Final.ipynb
 ```
 
 ---
 
 ## ✅ Ideal For
 
-- Recruiters looking for **real-world applications** of AI in finance
+- Organisations and individuals looking for **real-world applications** of AI in finance
 - Teams prioritizing **model transparency & fairness**
 - Data scientists exploring **SHAP and counterfactuals in deep learning**
 
@@ -121,7 +103,7 @@ jupyter notebook GermanCredit_Final.ipynb
 ## 👨‍💻 Author
 
 **Samson Orodele**  
-MSc Data Science – Northumbria University  
+Email: samorodele@gmail.com 
 [GitHub](https://github.com/SamsonOrodele)
 
 ---
