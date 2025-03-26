@@ -1,12 +1,12 @@
 # 🔍 German Credit Risk Analysis with Explainable Deep Learning
 
-This repository houses the implementation of my MSc dissertation project, titled **"Generating Counterfactual and Global Explanations for German Credit Data Using Deep Learning Models"**, completed as part of the MSc Data Science with Advanced Practice program at Northumbria University. The project tackles the critical challenge of transparency in credit risk assessment by leveraging **Explainable Artificial Intelligence (XAI)** techniques with deep learning models. Using the German Credit Dataset, I developed two neural networks—a **Multilayer Perceptron (MLP)** and a **Convolutional Neural Network (CNN)**—enhanced with **SMOTE** to address data imbalance, and explained their decisions using **SHAP** for global feature importance and **counterfactual explanations** for individual decision insights.
+This repository houses the implementation of my MSc dissertation project, titled **"Generating Counterfactual and Global Explanations for German Credit Data Using Deep Learning Models"**. The project tackles the critical challenge of transparency in credit risk assessment by leveraging **Explainable Artificial Intelligence (XAI)** techniques with deep learning models. Using the German Credit Dataset, I developed two neural networks—a **Multilayer Perceptron (MLP)** and a **Convolutional Neural Network (CNN)** enhanced with **SMOTE** to address data imbalance, and explained their decisions using **SHAP** for global feature importance and **counterfactual explanations** for individual decision insights.
 
 ---
 
 ## 💼 Background and Motivation
 
-Credit scoring is a cornerstone of financial decision-making, determining whether individuals receive loans or credit cards based on their likelihood of repayment. However, traditional machine learning models, often dubbed "black boxes," obscure the reasoning behind their predictions, eroding trust among stakeholders—be it applicants seeking clarity or institutions ensuring fairness. This project bridges that gap by integrating **predictive power** with **interpretability**, a pressing need in the financial sector where transparency is not just a luxury but a regulatory and ethical necessity.
+Credit scoring is a cornerstone of financial decision-making, determining whether individuals receive loans or credit cards based on their likelihood of repayment. However, traditional machine learning models, often dubbed "black boxes," obscure the reasoning behind their predictions, eroding trust among stakeholders, be it applicants seeking clarity or institutions ensuring fairness. This project bridges that gap by integrating **predictive power** with **interpretability**, a pressing need in the financial sector where transparency is not just a luxury but a regulatory and ethical necessity.
 
 The German Credit Dataset, a widely recognized benchmark, presents a real-world challenge with its imbalanced classes (700 good credit cases vs. 300 bad credit cases) and mix of categorical and numerical features. My work aims to not only classify creditworthiness accurately but also explain *why* decisions are made and *how* they can be altered, empowering both financial institutions and their clients.
 
@@ -16,7 +16,7 @@ The German Credit Dataset, a widely recognized benchmark, presents a real-world 
 
 This project pursues the following goals:
 
-1. **Develop Robust Predictive Models**: Construct and optimize two deep learning models—MLP and CNN—for credit risk classification.
+1. **Develop Robust Predictive Models**: Construct and optimize two deep learning models, MLP and CNN, for credit risk classification.
 2. **Mitigate Data Imbalance**: Apply the **Synthetic Minority Oversampling Technique (SMOTE)** to balance the dataset and improve model fairness.
 3. **Enhance Global Interpretability**: Use **SHAP (SHapley Additive exPlanations)** to uncover the most influential features driving credit decisions.
 4. **Provide Individual Insights**: Generate **counterfactual explanations** to demonstrate how specific feature changes (e.g., increasing credit amount) can flip a credit decision.
@@ -116,9 +116,15 @@ The dataset’s imbalance posed a risk of biased predictions favoring the majori
 
 ## ✅ Ideal For
 
-- Organizations and individuals seeking **real-world applications** of AI in finance.
-- Teams prioritizing **model transparency and fairness**.
-- Data scientists exploring **SHAP and counterfactuals** in deep learning.
+-Financial Institutions: Seeking transparent AI tools for credit risk assessment.
+
+-Data Scientists: Interested in XAI applications with deep learning.
+
+-Regulators and Ethicists: Focused on fairness and interpretability in AI systems.
+
+-Students/Researchers: Exploring SMOTE, SHAP, and counterfactuals in real-world scenarios.
+
+
 
 ---
 
